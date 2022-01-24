@@ -7,9 +7,9 @@
     <h2>Movies</h2>
     <ul>
 
-        @foreach ($movies as $movie)
+        {{-- @foreach ($movies as $movie)
             <li>{{ $movie }}</li>
-        @endforeach
+        @endforeach --}}
 
     </ul>
 
