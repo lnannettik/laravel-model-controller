@@ -2,16 +2,21 @@
 
 @section('content')
 <div class="container">
-    <h1 class="mb-5">MOVIES ARCHIVE</h1>
+    <h1 class="mb-5 text-center">MOVIES ARCHIVE</h1>
 
-    <h2>Movies</h2>
-    <ul>
+    <h2 class="text-center">Movies</h2>
 
-        {{-- @foreach ($movies as $movie)
-            <li>{{ $movie }}</li>
-        @endforeach --}}
+    <section>
+        <ul>
 
-    </ul>
+            @foreach ($movies as $movie)
+                
+                <li>{{ $movie->title }}</li>
+
+            @endforeach
+
+        </ul>
+    </section>
 
 </div>
 
