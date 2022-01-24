@@ -4,16 +4,8 @@
 <div class="container">
     <h1 class="mb-5">HOMEPAGE</h1>
 
-    <h2>Skills</h2>
-    <ul>
+    <h2>Select 'Movies' up there</h2>
 
-        @foreach ($skills as $skill)
-            <li>{{ $skill }}</li>
-        @endforeach
-
-    </ul>
-
-    @dump($clients)
 </div>
 
 @endsection

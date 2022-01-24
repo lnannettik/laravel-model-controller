@@ -1,0 +1,17 @@
+.movie-card {
+  display: flex;
+  background-color: #f8f9fa;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.movie-card .card-list {
+  list-style: none;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-bottom: white;
+  margin-top: 2rem;
+}
